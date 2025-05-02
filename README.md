@@ -1,107 +1,103 @@
 # Screen Mirroring: TV Cast Air
-[`📲 Available on the App Store`](https://apps.apple.com/ru/app/screen-mirroring-tv-cast-air/id6738986551?l=en-GB)
+[`📲 Доступно на App Store`](https://apps.apple.com/ru/app/screen-mirroring-tv-cast-air/id6738986551?l=en-GB)
 
 
-I created Screen Mirroring: TV Cast Air to let users effortlessly cast content from their iPhone or iPad to a TV using AirPlay. The app allows you to instantly mirror photos and videos stored on your device, and even supports real-time camera streaming directly to your TV. Users can also snap photos within the app and display them immediately on a larger screen—perfect for group viewing or demos.
+Я разработал приложение Screen Mirroring: TV Cast Air, чтобы пользователи могли с лёгкостью транслировать контент со своего iPhone или iPad на телевизор с помощью AirPlay. Приложение позволяет мгновенно выводить на экран фотографии и видео с устройства, а также поддерживает потоковую трансляцию изображения с камеры в реальном времени. Пользователь также может делать снимки прямо в приложении и тут же отображать их на большом экране — идеально для презентаций или совместного просмотра.
 
-To make screen mirroring more interactive, I integrated YouTube, TikTok, and Safari so users can cast any video they discover online. I also added PencilKit, enabling users to draw on the screen and mirror their annotations in real time—ideal for lectures or collaborative sessions. Whether it’s media playback or visual explanations, this app turns your TV into a dynamic second screen.
+Чтобы сделать трансляцию ещё более интерактивной, я добавил поддержку YouTube, TikTok и Safari — теперь можно воспроизводить любые видео прямо с интернета. Также я внедрил PencilKit, позволяющий рисовать на экране и в режиме реального времени выводить эти заметки на телевизор — отличный инструмент для лекций или совместной работы. Это приложение превращает ваш ТВ в полноценный динамичный второй экран.
 
 <img width="705" alt="Screenshot 2025-05-02 at 23 12 25" src="https://github.com/user-attachments/assets/a5b8d98e-59e3-4948-a4ab-4cabe61a328f" />
 
 
-**Tech Used:**
+**Технологии:**
 - 📱 SwiftUI (MVVM)
-- 📺 AirPlay Integration
+- 📺 Интеграция с AirPlay
 - ✏️ PencilKit
 - 📸 AVFoundation
-- 💰 AppHud for IAP
+- 💰 AppHud (подписки)
 
 
 # AI Music Maker
-[`📲 Available on the App Store`](https://apps.apple.com/ru/app/ai-music-maker-create-song/id6741863297?l=en-GB)
+[`📲 Доступно на App Store`](https://apps.apple.com/ru/app/ai-music-maker-create-song/id6741863297?l=en-GB)
 
+Я разработал приложение AI Music Generation — свою вторую разработку в области генерации музыки с помощью ИИ, основанную на уже накопленном опыте в этой нише. Это приложение позволяет пользователям легко создавать музыку с помощью искусственного интеллекта: как инструментальные композиции, так и треки с вокалом. Возможность одновременной генерации нескольких треков помогает быстро воплощать разнообразные музыкальные идеи в творческой и удобной среде.
 
-I created AI Music Generation, my second application in the AI music space, building on my experience in this niche. This app empowers users to compose AI-generated music effortlessly, offering options for creating both instrumental tracks and songs with vocals. With the ability to generate multiple tracks simultaneously, users can explore diverse musical ideas in a streamlined and creative environment.
-
-The app integrates the Suno Music API from platform.acedata.cloud and uses Realm for secure local storage of tracks. Users can play, share, and download their creations, as well as engage with a feed of trending AI songs. AI Music Generation provides a versatile platform for exploring innovative music production while ensuring a polished user experience.
+Приложение интегрирует Suno Music API с платформы platform.acedata.cloud и использует Realm для безопасного локального хранения треков. Пользователи могут прослушивать, делиться и загружать свои композиции, а также следить за лентой популярных AI-треков. AI Music Generation предлагает гибкую и вдохновляющую платформу для экспериментов с инновационным музыкальным производством, обеспечивая при этом комфортный пользовательский опыт.
 
 <img width="688" alt="Screenshot 2025-05-02 at 23 06 32" src="https://github.com/user-attachments/assets/188d929b-1b78-4739-a630-1a1dc1ff5cfb" />
 
 
-**Tech Used:**
+**Технологии:**
 -	💿 Realm
 -	🎨 SwiftUI (MVVM)
 -	🏦 Suno API
--	💰 AppHud for IAP
+- 💰 AppHud (подписки)
 
 
   # Invy - Easy Invoice Maker
-[`📲 Available on the App Store`](https://apps.apple.com/ru/app/invy-easy-invoice-maker/id6742225907?l=en-GB)
+[`📲 Доступно на App Store`](https://apps.apple.com/ru/app/invy-easy-invoice-maker/id6742225907?l=en-GB)
 
-I developed Invy - Easy Invoice Maker, a powerful iOS application enabling users to create professional invoices tailored to any type of purchase in any desired currency. The app generates customized invoices that users can send directly to their customers for their products or services. With its intuitive interface, Invy simplifies the billing process, ensuring users can seamlessly manage their financial transactions.
+Я разработал Invy — Easy Invoice Maker — мощное iOS-приложение, позволяющее пользователям создавать профессиональные счета-фактуры для любых товаров и услуг в нужной валюте. Приложение формирует кастомные инвойсы, которые можно сразу отправить клиентам. Благодаря интуитивному интерфейсу, Invy упрощает процесс выставления счетов и помогает удобно управлять финансовыми операциями.
 
-The app also provides advanced earnings tracking through detailed statistics for any specified period and currency. Built entirely without external APIs, it leverages Realm for secure data storage and Apphud for premium features, offering a robust, private, and efficient solution for managing invoices and financial tracking.
+Приложение также предлагает продвинутую систему отслеживания доходов: подробная статистика доступна за любой выбранный период и в любой валюте. Вся функциональность построена без использования внешних API: данные хранятся локально с помощью Realm, а доступ к премиум-возможностям реализован через Apphud, что делает Invy надёжным, приватным и эффективным решением для финансового учёта.
 
 <img width="782" alt="Screenshot 2025-05-02 at 22 51 35" src="https://github.com/user-attachments/assets/b71d712b-47d1-4e50-8625-1e393c966b40" />
 
 <img width="256" alt="Screenshot 2025-05-02 at 22 52 03" src="https://github.com/user-attachments/assets/240a2fd6-7bd5-4540-b5ce-8a9efc1ab030" />
 
 
-**Tech Used:**
+**Технологии:**
 -	💿 Realm
 -	🎨 SwiftUI (MVVM)
--	💰 AppHud for IAP
+- 💰 AppHud (подписки)
   
 
 # [Acadly](https://apps.apple.com/uz/app/acadly/id1161073387?l=en)
-[`📲 Available on the App Store`](https://apps.apple.com/uz/app/acadly/id1161073387?l=en)
+[`📲 Доступно на App Store`](https://apps.apple.com/uz/app/acadly/id1161073387?l=en)
 
-Acadly is a classroom response system used by over 400 universities. When I joined the team, the app lacked proper structure and testing. I restructured the codebase by implementing the MVC design pattern with UIKit, significantly improving maintainability and performance.
+Acadly — это система взаимодействия между преподавателями и студентами, которую используют более 400 университетов. Когда я присоединился к команде, приложение страдало от отсутствия чёткой архитектуры и автоматизированного тестирования. Я полностью переработал кодовую базу, внедрив архитектурный шаблон MVC на базе UIKit, что значительно повысило удобство поддержки и производительность приложения.
 
-I also reduced load times by 3 seconds and increased the Crash Free rate from 94.92% to 99.57% by introducing over 140 unit tests that detected and resolved critical bugs. My work transformed Acadly into a more stable and efficient platform for both students and educators.
+Я также сократил время загрузки на 3 секунды и увеличил показатель стабильности (Crash Free rate) с 94.92% до 99.57%, написав более 140 модульных тестов, которые выявили и устранили критические баги. Моя работа сделала Acadly более стабильной и надёжной платформой как для студентов, так и для преподавателей.
 
 <img width="443" alt="Screenshot 2025-05-02 at 22 45 58" src="https://github.com/user-attachments/assets/295fd83f-49b1-4a76-82cf-a75ceb3409ad" />
 
-**Key Contributions:**
+**Ключевой вклад:**
 
--	🏗 Refactored the codebase to follow the MVC pattern
--	💡 Implemented over 140 unit tests, raising stability and reliability
--	📉 Reduced load times by 3 seconds
--	🔍 Improved Crash Free rate from 94.92% to 99.57%
+-	🏗 Рефакторил кодовую базу с переходом на архитектуру MVC
+-	💡 Реализовал более 140 модульных тестов, повысив стабильность и надёжность
+-	📉 Сократил время загрузки на 3 секунды
+-	🔍 Повысил Crash Free Rate с 94.92% до 99.57%
 
-**Tech Used:**
-
+**Технологии:**
 -	💿 Realm
 -	🏗 UIKit (MVC)
--	🧵 Multi-threaded programming
--	🧪 Unit testing
+-	🧵 Многопоточность
+-	🧪 Модульное тестирование (Unit testing)
 
 
 # [CashCraft](https://apps.apple.com/kz/app/cashcraft%E3%85%A4/id6654918982)
-[`📲 Available on the App Store`](https://apps.apple.com/kz/app/cashcraft%E3%85%A4/id6654918982)
+[`📲 Доступно на App Store`](https://apps.apple.com/kz/app/cashcraft%E3%85%A4/id6654918982)
 
-This iOS/iPadOS app was designed and developed entirely by me from the ground up. It enables users to track income and expenses with ease, leveraging Realm for secure data storage. The app also provides financial news and literacy tips through NewsAPI integration.
+Это iOS/iPadOS-приложение было полностью разработано мной с нуля. Оно позволяет пользователям легко отслеживать доходы и расходы, используя Realm для безопасного хранения данных. Также в приложении реализована интеграция с NewsAPI, через которую пользователи получают финансовые новости и советы по финансовой грамотности.
 
-Premium features were implemented using AppHud, allowing users to unlock advanced financial tracking capabilities. The app combines ease of use with powerful functionality, providing users with the tools they need for efficient money management.
+Премиум-функции реализованы с помощью AppHud, что позволяет открывать расширенные возможности для финансового анализа. Приложение сочетает в себе простоту использования и мощный функционал, предоставляя пользователям удобный инструмент для эффективного управления своими финансами.
+
 
 <img width="594" alt="Screenshot 2025-05-02 at 22 43 16" src="https://github.com/user-attachments/assets/eee7be6f-c569-4464-9ff2-4783acc0fe3a" />
 
 
 
+**Ключевые достижения:**
+- 💿 Использовал Realm для надёжного хранения данных
+- 📲 Интегрировал NewsAPI для получения финансовых новостей
+- 💰 Реализовал подписки с помощью AppHud
+-	🔹 Создал удобный интерфейс для учёта расходов
 
-**Key Contributions:**
-
-- 💿 Leveraged Realm for reliable data storage
-- 	📲 Integrated NewsAPI for financial updates
-- 💰 Implemented in-app purchases with AppHud
--	🔹 Delivered a user-friendly interface for expense management
-
-**Tech Used:**
-
+**Технологии:**
 -	💿 Realm
 -	🎨 SwiftUI
--	🏦 AppStorage
--	💰 AppHud for IAP
+-	-	📰 NewsAPI
+- 💰 AppHud (подписки)
 
 
 
@@ -113,43 +109,33 @@ Premium features were implemented using AppHud, allowing users to unlock advance
 
 
 # [DMV Genie](https://apps.apple.com/kz/app/dmv-genie/id6654919163)
-[`📲 Available on the App Store`](https://apps.apple.com/kz/app/dmv-genie/id6654919163)
+[`📲 Доступно на App Store`](https://apps.apple.com/kz/app/dmv-genie/id6654919163)
 
-I created DMV Genie, an iOS/iPadOS app that serves as a personalized DMV tutor, built entirely from scratch. Using AI, the app tailors driving theory questions to each user, ensuring a customized learning experience. With Realm and AppStorage for data management, the app delivers seamless performance and efficiency.
+Я разработал DMV Genie — iOS/iPadOS-приложение, которое выступает в роли персонального помощника при подготовке к экзамену на водительские права. Приложение создано с нуля и использует ИИ для подбора теоретических вопросов по вождению, адаптированных под каждого пользователя, обеспечивая персонализированное обучение.
 
-Premium features, implemented via AppHud, provide additional functionality for users seeking a more advanced learning experience, making LicenseMaster a comprehensive tool for mastering driving theory.
+Для управления данными используются Realm и AppStorage, что обеспечивает стабильную и быструю работу приложения. Премиум-функции реализованы через AppHud, предоставляя расширенные возможности тем, кто хочет углубить свои знания. DMV Genie — это полноценный инструмент для уверенной подготовки к экзамену по ПДД.
 
 <img width="602" alt="Screenshot 2025-05-02 at 22 44 24" src="https://github.com/user-attachments/assets/a8a62f05-e020-4d58-bcae-72c05b6a2b90" />
 
-
-**Key Contributions:**
-
--	💿 Utilized Realm for seamless data storage
--	🏦 Employed AppStorage for user data management
--	💰 Integrated AppHud for IAP and premium features
-- 🔹 Leveraged AI to generate tailored questions for each user
-
-**Tech Used:**
-
+**Технологии:**
 -	💿 Realm
 -	🎨 SwiftUI
--	🏦 AppStorage
--	💰 AppHud for IAP
+- 💰 AppHud (подписки)
 
 
 
 
 # Sbal:Trendy Highlights
-[`📲 Available on the App Store`](https://apps.apple.com/kz/app/sbal-trendy-highlights/id6737634852)
+[`📲 Доступно на App Store`](https://apps.apple.com/kz/app/sbal-trendy-highlights/id6737634852)
 
-I developed Trendy Highlights, an iOS app focused on helping users capture, organize, and categorize fashion trends. The app allows users to tag and describe their style inspirations by adding photos, creating trend collections, and selecting fashion categories. Users can quickly organize trends by season and style tags, making it easy to track their favorite looks.
+Я разработал Trendy Highlights — iOS-приложение, созданное для того, чтобы пользователи могли фиксировать, организовывать и классифицировать модные тренды. Приложение позволяет загружать фотографии, добавлять описания, создавать коллекции образов и отмечать их по категориям и сезонам, что делает отслеживание любимых стилей простым и удобным.
 
-The app was built using SwiftUI with the MVVM architecture, and data was stored using Realm to ensure seamless management of fashion trends and user inputs.
+Приложение построено с использованием SwiftUI и архитектуры MVVM, а данные хранятся локально с помощью Realm, обеспечивая надёжное и плавное управление пользовательской информацией и модными подборками.
 
 <img width="488" alt="Screenshot 2025-05-02 at 22 45 27" src="https://github.com/user-attachments/assets/7dbe65ae-0df2-4f0b-aa61-996fe6824606" />
 
 
-**Tech Used:**
+**Технологии:**
 -	📱 WebView
 -	🎨 SwiftUI (MVVM)
 -	💿 Realm
@@ -168,21 +154,19 @@ The app was built using SwiftUI with the MVVM architecture, and data was stored 
 
 
 # [Otan Mektep](https://apps.apple.com/kz/app/otan-mektep/id6503287697)
-[`📲 Available on the App Store`](https://apps.apple.com/kz/app/otan-mektep/id6503287697)
+[`📲 Доступно на App Store`](https://apps.apple.com/kz/app/otan-mektep/id6503287697)
 
-I managed the full-cycle development of an iOS and Android app for the digitization system, serving over 100 institutions. The project involved designing mobile apps and the project website, with a focus on incorporating BaaS to streamline processes. High test coverage was achieved to ensure the reliability and scalability of the system.
+Я управлял полным циклом разработки iOS- и Android-приложений для системы цифровизации, которая обслуживает более 100 учреждений. Проект включал разработку мобильных приложений и веб-сайта, с акцентом на внедрение BaaS-решений для оптимизации внутренних процессов. Высокий уровень покрытия тестами обеспечил надёжность и масштабируемость системы.
 
-Throughout the project, I applied my expertise in Firebase Cloud Messaging for efficient communication, Figma for UI/UX design, API design to ensure smooth backend integration, and SnapKit for layout building.
-
+В рамках проекта я использовал Firebase Cloud Messaging для эффективного взаимодействия с пользователями, Figma для проектирования UI/UX, занимался разработкой API для стабильной интеграции с бэкендом и применял SnapKit для построения гибких и адаптивных интерфейсов.
 
 <img width="445" alt="Screenshot 2025-05-02 at 22 46 22" src="https://github.com/user-attachments/assets/9ab6e75c-e40e-4af6-a9ff-dc2a82853ad5" />
 
 
-**Tech Used:**
-
+**Технологии:**
 -	🔥 Firebase Cloud Messaging
 -	🎨 Figma
--	🛠 API Design
+-	🛠 Проектирование API
 -	📱 SnapKit
 
 
@@ -190,195 +174,193 @@ Throughout the project, I applied my expertise in Firebase Cloud Messaging for e
 
 
 # Math Solver
-`📲 Will be available on the App Store soon`
+`📲 Доступно на App Store soon`
 
-I developed Math Solver, an iOS app using SwiftUI and the Gemini-Pro API, allowing users to solve math problems by capturing photos of equations. The app uses AI to process images, deduce equations, and provide step-by-step solutions, ensuring users can learn as they solve.
+Я разработал Math Solver — iOS-приложение на базе SwiftUI, использующее Gemini-Pro API для решения математических задач по фотографиям. Пользователи могут просто сфотографировать уравнение, после чего ИИ распознаёт его и предоставляет пошаговое решение, позволяя не только получить ответ, но и понять ход решения.
 
-Math Solver also features interactive quizzes and sends Firebase notifications to encourage users to practice and improve their skills. With its intuitive design and educational focus, the app offers a seamless and engaging experience for math enthusiasts.
+В приложении также реализованы интерактивные викторины и система уведомлений через Firebase, мотивирующая пользователей регулярно тренироваться и повышать уровень знаний. Благодаря интуитивному интерфейсу и образовательному уклону, Math Solver предлагает удобный и вовлекающий опыт для всех, кто хочет улучшить свои навыки в математике.
 
 <img width="516" alt="Screenshot 2025-05-02 at 22 47 06" src="https://github.com/user-attachments/assets/f77c9f0b-fbc4-45df-b569-73dada70e65f" />
 
 
 <img width="789" alt="Screenshot 2025-05-02 at 22 47 20" src="https://github.com/user-attachments/assets/fb74c310-140b-45db-a054-aa66feaad0be" />
 
-**Tech Used:**
+**Технологии:**
 -	💿 Realm
 -	🎨 SwiftUI (MVVM)
 -	🏦 Gemini Pro Api
--	💰 AppHud for IAP
+- 💰 AppHud (подписки)
 
 
 
 
 # Remove Object
-`📲 Will be available on the App Store soon`
+`📲 Скоро будет доступно в App Store`
 
-I developed Remove Object, an iOS app that enables users to effortlessly remove objects or backgrounds from their photos using Replicate.com’s API. With a clean and intuitive interface, the app offers powerful editing capabilities, making it easy for users to create polished, professional-looking images.
+Я разработал Remove Object — iOS-приложение, позволяющее пользователям с лёгкостью удалять объекты или фоны с фотографий с помощью API от Replicate.com. С простым и интуитивным интерфейсом, приложение предоставляет мощные инструменты редактирования, позволяя создавать аккуратные и профессионально выглядящие изображения за считанные секунды.
 
-To enhance the user experience, the app integrates premium features through AppHud, allowing access to advanced editing tools. Remove Object combines functionality and simplicity, catering to both casual users and creative professionals.
+Для расширения возможностей пользователей в приложении реализован доступ к премиум-функциям через AppHud, включая более продвинутые инструменты редактирования. Remove Object сочетает в себе функциональность и простоту, идеально подходя как для обычных пользователей, так и для креативных профессионалов.
 
 <img width="670" alt="Screenshot 2025-05-02 at 22 47 57" src="https://github.com/user-attachments/assets/605e2acd-318d-4947-a45a-7d89a39ed5dc" />
 
-**Tech Used:**
+**Технологии:**
 -	💿 Realm
 -	🎨 SwiftUI (MVVM)
 -	🏦 Replicate.com API
--	💰 AppHud for IAP
+- 💰 AppHud (подписки)
 
 
 # Call Recorder
-`📲 Will be available on the App Store soon`
+`📲 Скоро будет доступно в App Store`
 
-I developed Call Recorder to give users a seamless way to record, manage, and transcribe their phone and voice calls. The app supports automatic recording for both incoming and outgoing calls with a simple tap-to-record interface. To ensure privacy, I implemented secure recording options protected by Face ID.
+Я разработал Call Recorder — приложение для iOS, обеспечивающее удобную запись, управление и расшифровку телефонных и голосовых звонков. Оно поддерживает автоматическую запись как входящих, так и исходящих вызовов через простой интерфейс с кнопкой «Записать». Для защиты конфиденциальности реализованы безопасные опции записи, включая авторизацию через Face ID.
 
-A backend service, developed by our team, handles call routing and recording securely via a dedicated VoIP integration and cloud storage pipeline. We also built a custom transcription engine powered by AI, which converts conversations into searchable, editable text. The app includes a separate voice recorder section for personal memos or lectures, complete with editing tools and easy sharing functionality.
+Бэкенд-сервис, созданный нашей командой, обрабатывает маршрутизацию звонков и запись через специализированную VoIP-интеграцию с облачным хранилищем. Мы также разработали собственную AI-модель для транскрибации, преобразующую разговоры в редактируемый и удобный для поиска текст. В приложении есть отдельный раздел голосового диктофона для личных заметок и лекций с возможностью редактирования и лёгкой отправки.
 
 <img width="652" alt="Screenshot 2025-05-02 at 23 42 25" src="https://github.com/user-attachments/assets/0db7c4d0-0184-4aca-a719-1df3fad1787d" />
 
 
-**Tech Used:**
-- ☁️ Custom Backend (Node.js + Firebase)
+**Технологии:**
+- ☁️ Пользовательский бэкенд (Node.js + Firebase)
 - 📱 SwiftUI (MVVM)
-- 🔐 Face ID Integration
-- 🧠 AI Transcription (Whisper API)
-- 💰 AppHud for IAP
+- 🔐 Интеграция Face ID
+- 🧠 AI-транскрибация (Whisper API)
+- 💰 AppHud (подписки)
 
 
 
 
 # Celebrity Voice AI
-`📲 Will be available on the App Store soon`
+`📲 Скоро будет доступно в App Store`
 
-I created a Celebrity Voice AI app that lets users convert any text into speech voiced by a wide range of characters—from fictional icons like Homer Simpson and Master Yoda to real-life figures like politicians and celebrities. Users can also record their own voice, which is transcribed using Apple’s native speech-to-text API, making it easy to transform spoken words into content-ready text.
+Я создал приложение Celebrity Voice AI, которое позволяет преобразовывать любой текст в речь, озвученную голосами известных персонажей — от вымышленных героев, таких как Гомер Симпсон и магистр Йода, до реальных личностей, включая политиков и знаменитостей. Пользователи также могут записывать собственный голос, который автоматически транскрибируется с помощью встроенного API от Apple, превращая устную речь в готовый текст.
 
-The app supports ChatGPT’s API to help users refine or generate sophisticated scripts by giving simple instructions. All voice recordings and transcripts are saved locally using Realm and can be shared or downloaded to the device. The app is fully localized in five languages: English, German, Italian, Spanish, and French.
+В приложении реализована интеграция с ChatGPT API, позволяющая создавать или редактировать тексты по заданным инструкциям. Все записи и транскрипции сохраняются локально с помощью Realm и могут быть легко загружены или отправлены. Приложение полностью локализовано на пять языков: английский, немецкий, итальянский, испанский и французский.
 
 <img width="899" alt="Screenshot 2025-05-02 at 23 52 31" src="https://github.com/user-attachments/assets/9d5c37ce-9a7f-4a2d-bb18-e3de4c0d6dbc" />
 
-**Tech Used:**
+**Технологии:**
 - 🧠 ChatGPT API
-- 🗣️ Apple Speech Framework
 - 🎨 SwiftUI (MVVM)
+- 🗣️ TopMedia AI Voice API (озвучка персонажей)
 - 💿 Realm
-- 🌍 Multilingual Support (EN, DE, IT, ES, FR)
-- 💰 AppHud for IAP
+- 🌍 Поддержка нескольких языков (английский, немецкий, итальянский, испанский, французский)
+- 💰 AppHud (подписки)
 
 
 
 # Hidden Camera Finder
-`📲 Will be available on the App Store soon`
+`📲 Скоро будет доступно в App Store`
 
-I developed Hidden Camera Finder to help users detect potentially hidden surveillance devices in their surroundings. The app scans all devices connected to the same Wi-Fi or nearby via Bluetooth and flags those that appear suspicious based on patterns commonly associated with hidden cameras. Users can manually mark known devices as safe, making future scans more accurate.
+Я разработал Hidden Camera Finder, чтобы помочь пользователям обнаруживать потенциально скрытые шпионские устройства в своём окружении. Приложение сканирует все устройства, подключённые к той же сети Wi-Fi или находящиеся поблизости через Bluetooth, и помечает подозрительные — на основе типичных признаков, присущих скрытым камерам. Пользователь также может вручную отметить известные устройства как безопасные, чтобы в будущем повысить точность сканирования.
 
-Each device’s information—including name, IP address, and hostname—is stored locally using Realm for easy access and history tracking. For physical inspection, users can also activate an infrared scanner directly from the app to locate devices emitting infrared signals. The app includes in-app purchases via AppHud to unlock premium scanning features and advanced detection filters.
+Информация о каждом найденном устройстве — включая название, IP-адрес и hostname — сохраняется локально с помощью Realm, что позволяет просматривать историю сканирований. Для физического осмотра устройств можно прямо из приложения включить инфракрасную камеру, чтобы выявлять устройства, излучающие ИК-сигналы. Поддержка AppHud обеспечивает доступ к платным функциям и расширенным фильтрам обнаружения.
 
 <img width="807" alt="Screenshot 2025-05-03 at 00 14 54" src="https://github.com/user-attachments/assets/5bb08532-48e1-426c-bea9-75cb67548999" />
 
-**Tech Used:**
-- 📡 Network + Bluetooth Scanning
+**Технологии:**
+- 📡 Сканирование сети и Bluetooth-устройств
 - 🎨 SwiftUI (MVVM)
-- 🔎 Infrared Detection (AVFoundation)
+- 🔎 Обнаружение инфракрасных сигналов (AVFoundation)
 - 💿 Realm
-- 💰 AppHud for IAP
+- 💰 AppHud (подписки)
 
 
 
 
 
 # AI Personal Assistant
-`📲 Will be available on the App Store soon`
+`📲 Скоро будет доступно в App Store`
 
-I developed AI Personal Assistant to make ChatGPT’s capabilities more accessible in a beautifully designed, user-friendly app. It allows users to chat with a powerful AI, ask questions on any topic, and receive high-quality responses—all while paying less than the official ChatGPT subscription.
+Я разработал приложение AI Personal Assistant, чтобы сделать возможности ChatGPT более доступными в стильном и удобном интерфейсе. Приложение позволяет вести диалог с мощным ИИ, задавать вопросы на любую тему и получать качественные ответы — при этом по цене ниже, чем официальная подписка ChatGPT.
 
-The app stores previous conversations locally using Realm and offers a dedicated section showcasing the most popular prompts from other users, which can be reused or modified. It’s built to give users the full flexibility of ChatGPT while enhancing the overall experience through chat history, structured prompt browsing, and an elegant interface.
+История переписок сохраняется локально с помощью Realm, а также реализован раздел с популярными запросами от других пользователей, которые можно использовать повторно или адаптировать под себя. Приложение предоставляет полный функционал ChatGPT, дополняя его удобной навигацией, сохранённой историей и продуманным дизайном.
 
 <img width="555" alt="Screenshot 2025-05-03 at 00 15 45" src="https://github.com/user-attachments/assets/b398807d-7073-4050-891b-3de4676c632f" />
 
-**Tech Used:**
+**Технологии:**
 - 🧠 ChatGPT API
 - 🎨 SwiftUI (MVVM)
 - 💿 Realm
-- 🌐 Prompt Feed Integration
-- 💰 AppHud for IAP
+- 🌐 Интеграция ленты подсказок (Prompt Feed)
+- 💰 AppHud (подписки)
 
 
 
 # Invoice & Business Tracker
-`📲 Will be available on the App Store soon`
+`📲 Скоро будет доступно в App Store`
 
-I developed Invoice & Business Tracker to help small business owners easily generate, manage, and track invoices. The app allows users to input their business details, store client information, and define services or items being sold. Users can create professional invoices in any currency, including all essential payment details such as due dates, payment methods, and totals.
+Я разработал Invoice & Business Tracker, чтобы помочь владельцам малого бизнеса легко создавать, управлять и отслеживать счета-фактуры. Приложение позволяет вводить данные о компании, сохранять информацию о клиентах и указывать товары или услуги, которые были проданы. Пользователи могут формировать профессиональные инвойсы в любой валюте, включая все необходимые детали — сроки оплаты, способы перевода и общую сумму.
 
-Each invoice is automatically converted into a PDF that can be shared with customers. All invoice data is stored securely on-device using Realm, allowing users to revisit past invoices, mark them as paid or unpaid, and manage their records efficiently. The app also generates visual business analytics—offering sales summaries in customizable currencies and displaying revenue trends over time using clear, dynamic graphs.
+Каждый счёт автоматически преобразуется в PDF, который можно отправить клиенту. Все данные хранятся локально на устройстве с помощью Realm, что позволяет возвращаться к старым инвойсам, помечать их как оплаченные или неоплаченные и удобно управлять финансовыми записями. Также приложение строит наглядную аналитику — пользователи могут просматривать сводки продаж в нужной валюте и следить за динамикой доходов по периодам с помощью интерактивных графиков.
 
 <img width="682" alt="Screenshot 2025-05-03 at 00 20 02" src="https://github.com/user-attachments/assets/b0db980b-5bf1-4d50-b57b-147802a829bd" />
 
-**Tech Used:**
+**Технологии:**
 - 🎨 SwiftUI (MVVM)
 - 💿 Realm
 - 🧾 PDFKit
-- 💹 Charts Framework
-- 🌐 Multi-Currency Support
-- 💰 AppHud for IAP
+- 💹 Charts Framework (графики и аналитика)
+- 🌐 Поддержка нескольких валют
+- 💰 AppHud (подписки)
 
 
 
 # Remove BG & Object Eraser
-`📲 Will be available on the App Store soon`
+`📲 Скоро будет доступно в App Store`
 
-I developed Remove BG & Object Eraser to let users instantly clean up their photos by removing backgrounds or unwanted objects with precision. The app uses two AI-powered endpoints from Replicate.com—one for background removal, which processes the uploaded image and returns a clean version without any background, and another for object removal.
+Я разработал приложение Remove BG & Object Eraser, которое позволяет пользователям быстро и точно очищать фотографии от фона или нежелательных объектов. Приложение использует два AI-инструмента от Replicate.com: один для удаления фона, другой — для удаления объектов с изображения.
 
-For object erasing, users can highlight the area they want removed using PencilKit. Their sketch is converted into a black-and-white mask: the drawn area becomes black, the rest white. This mask and the original image are uploaded using 0x0.st’s free image hosting API, then passed as links to Replicate’s object removal model, which returns the edited image. The app also features undo/redo functionality and a built-in gallery for managing saved results without watermarks.
+Для удаления объектов пользователь может выделить нужную область с помощью PencilKit. Этот рисунок преобразуется в черно-белую маску: закрашенные участки становятся чёрными, остальные — белыми. Маска и оригинальное изображение загружаются через бесплатный API от 0x0.st и отправляются в AI-модель Replicate, которая возвращает откорректированную фотографию. В приложении также реализованы функции отмены/повтора действий и встроенная галерея для хранения обработанных изображений без водяных знаков.
 
 <img width="727" alt="Screenshot 2025-05-03 at 00 38 08" src="https://github.com/user-attachments/assets/d0b3e29a-dae7-4a8d-9f87-ea0c6eb159e5" />
 
-**Tech Used:**
+**Технологии:**
 - 🎨 SwiftUI (MVVM)
 - ✏️ PencilKit
-- 🧠 Replicate.com APIs (Background Removal & Inpainting)
-- 🌐 0x0.st API for Image Hosting
+- 🧠 Replicate.com API (удаление фона и объектов)
+- 🌐 0x0.st API для загрузки изображений
 - 💿 Realm
-- 💰 AppHud for IAP
+- 💰 AppHud (подписки)
 
 
 
 # Document Scanner & PDF Editor
-`📲 Will be available on the App Store soon`
+`📲 Скоро будет доступно в App Store`
 
-I built Document Scanner & PDF Editor to give users complete control over scanning, editing, and exporting physical documents. Whether it’s a passport, ID, book, or any paper document, users can scan pages and convert them into PDFs with precision. A custom cropping tool lets users adjust each corner of the scan to align perfectly—ideal for trimming pages to A4 or any shape.
+Я разработал приложение Document Scanner & PDF Editor, чтобы предоставить пользователям полный контроль над сканированием, редактированием и экспортом бумажных документов. Независимо от типа — паспорт, удостоверение личности, книга или обычный лист — пользователь может отсканировать страницы и точно преобразовать их в PDF. Специальный инструмент обрезки позволяет вручную регулировать каждый угол изображения, идеально выравнивая его под формат A4 или любой другой.
 
-Once saved, each page can be edited: users can draw color-customizable signatures directly onto the PDF using PencilKit. With PDFKit integration, users can select existing text on the page and adjust its font size, color, and line spacing. The app analyzes background and text color to overlay edits in a way that preserves the original look and layout. Users can export the full PDF, share selected pages as JPGs, or extract and send individual pages or sections as needed.
+После сохранения PDF можно редактировать: с помощью PencilKit пользователь может нарисовать цветную подпись прямо на нужной странице. Благодаря интеграции PDFKit, также можно выбрать текст, изменить его шрифт, размер, цвет и межстрочное расстояние. Приложение автоматически анализирует цвет фона и текста, чтобы наложенные изменения выглядели естественно и органично. Пользователь может экспортировать весь документ, поделиться отдельными страницами в формате JPG или отправить только выбранные части PDF-файла.
 
 <img width="732" alt="Screenshot 2025-05-03 at 00 39 02" src="https://github.com/user-attachments/assets/04ac336b-ce46-4662-aaa1-7335308c3539" />
 
 
-**Tech Used:**
+**Технологии:**
 - 📸 VisionKit + AVFoundation
 - 📄 PDFKit
 - ✏️ PencilKit
 - 🎨 SwiftUI (MVVM)
 - 💿 Realm
-- 💰 AppHud for IAP
+- 💰 AppHud (подписки)
 
 
 # AI Celebrity Voice Studio
-`📲 Will be available on the App Store soon`
+`📲 Скоро будет доступно в App Store`
 
-I created AI Celebrity Voice Studio, an immersive voice generation app that allows users to convert written text into lifelike audio voiced by a wide range of AI-powered characters—ranging from fictional icons to real-world celebrities and politicians. Users can either input text or record their voice, which is transcribed using Apple’s native speech-to-text API.
+Я создал приложение AI Celebrity Voice Studio — платформу для генерации реалистичных голосов, которая позволяет пользователям превращать текст в озвучку голосами множества AI-персонажей — от вымышленных героев до реальных знаменитостей и политиков. Пользователь может ввести текст вручную или записать свой голос, который автоматически транскрибируется с помощью встроенного API распознавания речи от Apple.
 
-Recordings and their transcripts are saved in Realm for offline access, and users can replay, share, or download them. To help users write more engaging scripts, the app includes ChatGPT integration, allowing custom text generation based on user instructions. The app supports output in five languages: English, German, Italian, Spanish, and French.
+Все записи и их расшифровки сохраняются в Realm для офлайн-доступа, а также могут быть воспроизведены, скачаны или отправлены. Для создания более проработанных скриптов реализована интеграция с ChatGPT, позволяющая формировать текст по пользовательским запросам. Приложение поддерживает генерацию голосов на пяти языках: английском, немецком, итальянском, испанском и французском.
 
 <img width="575" alt="Screenshot 2025-05-03 at 00 47 47" src="https://github.com/user-attachments/assets/7d8b4fa0-7790-4f4d-99a4-d108306dee36" />
 
-
-
-**Tech Used:**
+**Технологии:**
 - 🧠 ChatGPT API
 - 🎤 Apple Speech Framework
-- 🗣️ AI Voice APIs
+- 🗣️ TopMedia AI Voice API (озвучка персонажей)
 - 💿 Realm
 - 🎨 SwiftUI (MVVM)
-- 🌍 Multilingual Support (EN, DE, IT, ES, FR)
-- 💰 AppHud for IAP
+- 🌍 Поддержка нескольких языков (английский, немецкий, итальянский, испанский, французский)
+- 💰 AppHud (подписки)
 
 
 
@@ -388,56 +370,56 @@ Recordings and their transcripts are saved in Realm for offline access, and user
 
 
 # SoundWave
-`📲 Will be available on the App Store soon`
+`📲 Скоро будет доступно в App Store`
 
-I developed SoundWave, an iOS app that empowers users to generate AI music effortlessly using the Suno Music API from platform.acedata.cloud. Users can create multiple tracks simultaneously, edit them to their liking, and play the music directly within the app. The intuitive design ensures a seamless experience, whether you’re exploring new sounds or crafting your own melodies.
+Я разработал SoundWave — iOS-приложение, которое позволяет пользователям с лёгкостью создавать музыку с помощью ИИ, используя Suno Music API от platform.acedata.cloud. Пользователи могут одновременно генерировать несколько треков, редактировать их по своему вкусу и прослушивать музыку прямо в приложении. Интуитивно понятный интерфейс обеспечивает комфортный процесс — от экспериментов со звуком до создания собственных мелодий.
 
-SoundWave also enables users to download and share their creations. With Realm integration, tracks are securely stored locally, allowing users to access and manage their music library anytime. This app provides a comprehensive platform for creative music generation and personalization.
+Приложение также позволяет скачивать и делиться созданными композициями. Все треки надёжно сохраняются локально с помощью Realm, что даёт пользователям быстрый доступ к своей музыкальной библиотеке в любое время. SoundWave — это полноценная платформа для креативной генерации и персонализации музыки.
 
 <img width="938" alt="Screenshot 2025-05-02 at 22 48 25" src="https://github.com/user-attachments/assets/36b99b95-aa36-4859-b2d9-883ac5f354df" />
 
 
-**Tech Used:**
+**Технологии:**
 -	💿 Realm
 -	🎨 SwiftUI (MVVM)
 -	🏦 Suno API
--	💰 AppHud for IAP
+- 💰 AppHud (подписки)
 
 
 
 # Vibrations
-`📲 Will be available on the App Store soon`
+`📲 Скоро будет доступно в App Store`
 
-I developed Vibrations app, a Swift-based iOS app designed to provide customizable vibration experiences using Apple’s Core Haptics API. This app enables users to select from a variety of pre-defined vibration themes, adjust the intensity and speed levels with precision, and enjoy unique patterns for relaxation or other use cases. The intuitive design ensures smooth navigation between modes, empowering users to tailor vibrations to their preferences.
+Я разработал приложение Vibrations — iOS-приложение на Swift, которое предоставляет пользователям возможность настраивать уникальные вибрационные эффекты с помощью Core Haptics API от Apple. Приложение предлагает набор предустановленных вибрационных тем, а также позволяет точно регулировать интенсивность и скорость, создавая персонализированные схемы вибрации для релаксации или других целей. Простой и интуитивный интерфейс обеспечивает лёгкую навигацию между режимами и настройками.
 
-To enhance the user experience, I integrated AppHud for managing in-app purchases, enabling access to premium vibration modes and features. By leveraging Apple’s APIs without any third-party dependencies, Vibrator ensures seamless functionality and high performance while maintaining a sleek and user-friendly interface.
+Для расширения функциональности я интегрировал AppHud для управления подписками и открытия доступа к премиальным вибро-режимам. Используя только нативные API от Apple, без сторонних зависимостей, приложение Vibrations обеспечивает стабильную работу, высокую производительность и стильный пользовательский опыт.
+
 
 <img width="576" alt="Screenshot 2025-05-02 at 22 49 38" src="https://github.com/user-attachments/assets/91c0b57e-d900-4c20-99c6-000f98f2e70d" />
 
 
-**Tech Used:**
+**Технологии:**
 -	🎨 SwiftUI (MVVM)
--	🏦 Apple's Core Haptics API
--	💰 AppHud for IAP
+-	🏦 API Core Haptics от Apple
+- 💰 AppHud (подписки)
 
 
 
 
 # App Ad Blocker
-`📲 Will be available on the App Store soon`
+`📲 Скоро будет доступно в App Store`
 
-I developed App Ad Blocker, an iOS app designed to improve Safari browsing by integrating powerful content blocker extensions. The app enables users to block unwanted advertisements, enhance privacy by preventing trackers, and secure their browsing experience by filtering harmful or intrusive content. Users can customize their experience by selecting filters and adding keywords or specific sites to block, tailoring protection to their needs.
+Я разработал App Ad Blocker — iOS-приложение, созданное для улучшения качества веб-сёрфинга в Safari за счёт интеграции мощных расширений для блокировки контента. Приложение позволяет блокировать нежелательную рекламу, защищать конфиденциальность за счёт предотвращения отслеживания, а также фильтровать вредоносный или навязчивый контент. Пользователи могут настраивать фильтры, добавлять ключевые слова и сайты для блокировки, адаптируя защиту под свои нужды.
 
-Built with Swift, the app leverages Safari Content Blockers to deliver efficient performance without impacting browsing speed. It provides seamless usability with toggle options for quick adjustments and offers premium features via AppHud to unlock advanced filters and settings. App Ad Blocker ensures an elevated and safer browsing experience, combining robust functionality with a clean, user-friendly interface.
-
+Приложение построено на Swift с использованием Safari Content Blockers, что обеспечивает высокую производительность без потери скорости загрузки страниц. Удобные переключатели позволяют быстро изменять настройки, а премиум-функции, реализованные через AppHud, открывают доступ к расширенным фильтрам и параметрам. App Ad Blocker — это безопасный и удобный способ сделать просмотр интернета чище и комфортнее.
 
 <img width="716" alt="Screenshot 2025-05-02 at 22 50 50" src="https://github.com/user-attachments/assets/2032b315-f3ac-4c23-b87e-1963c2cd5002" />
 
 
-**Tech Used:**
+**Технологии:**
 -	🎨 SwiftUI (MVVM)
--	🏦 Safari Content Blockers
--	💰 AppHud for IAP
+-	🏦 Safari Content Blockers (расширения блокировки контента)
+- 💰 AppHud (подписки)
 
 
 
@@ -448,38 +430,34 @@ Built with Swift, the app leverages Safari Content Blockers to deliver efficient
 
 
 # Never Have I Ever - AI Game
-`📲 Will be available on the App Store soon`
+`📲 Скоро будет доступно в App Store`
 
-I developed Never Have I Ever - AI Game, a modern twist on the classic party game. The app features pre-designed game packs, each with a unique theme, allowing users to enjoy countless rounds of fun with friends. For those seeking a personalized experience, the app integrates Gemini-Pro API, enabling users to create their own custom game packs tailored to their preferences. Users can specify descriptions, card numbers, and game styles, making every pack uniquely their own.
+Я разработал приложение Never Have I Ever — AI Game, которое представляет собой современное переосмысление классической вечеринки-игры. В нём представлены готовые игровые наборы с уникальными темами, позволяющие весело провести время в кругу друзей. Для тех, кто хочет персонализировать игру, реализована интеграция с Gemini-Pro API, с помощью которого можно создавать собственные карточные наборы, задавая описание, количество карточек и стиль игры.
 
-The app’s user-friendly design ensures seamless navigation and gameplay, whether using pre-made packs or customized ones. It brings creativity and fun together, offering an unforgettable gaming experience for every type of party or gathering.
+Интерфейс приложения прост и интуитивен, обеспечивая плавный переход между предустановленными и пользовательскими наборами. Never Have I Ever объединяет креатив и развлечение, предлагая незабываемый игровой опыт для любого формата вечеринки.
 
 <img width="663" alt="Screenshot 2025-05-02 at 22 55 39" src="https://github.com/user-attachments/assets/2ca80137-ed78-4186-a2ef-3ec0a84e3300" />
 
-
-
-**Tech Used:**
+**Технологии:**
 -	💿 Realm
 -	🎨 SwiftUI (MVVM)
 -	🏦 Gemini Pro Api
--	💰 AppHud for IAP
+- 💰 AppHud (подписки)
 
 # USCIS CaseFlow
-`📲 Will be available on the App Store soon`
+`📲 Скоро будет доступно в App Store`
 
-I developed USCIS CaseFlow, an iOS app designed to help users track their USCIS cases much faster by simply entering their case ID, without the need to log in. The app leverages the official USCIS API to provide real-time updates, offering users a streamlined and efficient experience.
+Я разработал приложение USCIS CaseFlow — iOS-решение, которое помогает пользователям быстро отслеживать статус своих иммиграционных дел в USCIS. Для этого достаточно просто ввести номер дела — авторизация не требуется. Приложение использует официальный USCIS API, предоставляя актуальные обновления в реальном времени и обеспечивая простой и эффективный пользовательский опыт.
 
-I managed the entire API integration process, including researching APIs, making necessary arrangements for production use, and implementing the official USCIS API. In-app purchases, integrated through AppHud, unlock premium features for enhanced functionality.
+Я лично отвечал за весь процесс интеграции API: от поиска подходящего решения и согласований для использования в продакшене до полной реализации официального API USCIS. Подписки и доступ к расширенному функционалу реализованы через AppHud.
 
 <img width="759" alt="Screenshot 2025-05-02 at 22 56 33" src="https://github.com/user-attachments/assets/11af071f-053a-47a4-a695-a3ed18d384d0" />
 
 
-
-**Tech Used:**
+**Технологии:**
 -	💿 Realm
 -	🎨 SwiftUI (MVVM)
--	🏦 AppStorage
--	💰 AppHud for IAP
+- 💰 AppHud (подписки)
 
 
 
@@ -489,20 +467,19 @@ I managed the entire API integration process, including researching APIs, making
 
 
 # SmartNest
-`📲 Will be available on the App Store soon`
+`📲 Скоро будет доступно в App Store`
 
-I developed SmartNest, an iOS app that allows users to regulate the brightness and opacity of smart lamps in their home by scanning the light bulb’s code with their camera. The app utilized HomeKit for seamless integration with smart lighting systems, providing users with a simple and intuitive way to control their home lighting.
+Я разработал приложение RunTracker для iOS, которое отслеживает пробежки, пульс и количество сожжённых калорий, используя данные напрямую из HealthKit. Пользователи могут сохранять свои тренировки в HealthKit и получать полную картину своей физической активности.
 
-Premium features, implemented via AppHud, unlocked additional capabilities, such as managing multiple lamps and advanced lighting settings.
+Кроме трекинга тренировок, RunTracker визуализирует маршруты пробежек, как в приложениях типа Strava, что делает процесс более наглядным и увлекательным. Также в приложении есть встроенный список дел, все задачи и данные которого хранятся локально с помощью Realm. Премиум-функции реализованы для пользователей, которые хотят получить расширенный функционал и глубокую аналитику по своим тренировкам.
 
 <img width="745" alt="Screenshot 2025-05-02 at 22 57 13" src="https://github.com/user-attachments/assets/57bae96a-0044-4d42-ac6a-a4310fe2bbe6" />
 
 
-**Tech Used:**
-
+**Технологии:**
 -	🏠 HomeKit
 -	🎨 SwiftUI (MVVM)
--	💰 AppHud for IAP
+- 💰 AppHud (подписки)
 
 
 
@@ -513,20 +490,19 @@ Premium features, implemented via AppHud, unlocked additional capabilities, such
 
 
 # RunTracker
-`📲 Will be available on the App Store soon`
+`📲 Скоро будет доступно в App Store`
 
-I developed RunTracker, an iOS app designed to track running activities, heart rate, and calories burned, with data pulled directly from HealthKit. The app allows users to store their workouts in HealthKit, providing them with a comprehensive view of their fitness activities.
+Я разработал RunTracker — iOS-приложение для отслеживания пробежек, пульса и сожжённых калорий, используя данные напрямую из HealthKit. Приложение позволяет сохранять тренировки в HealthKit, предоставляя пользователю полную картину своей физической активности и прогресса.
 
-In addition to workout tracking, RunTracker displays the paths users have run through, similar to Strava, enhancing the overall running experience. The app also includes a to-do list feature, with all tasks and data stored securely in Realm. Premium features were integrated to provide advanced functionalities for users seeking more from their fitness tracking experience.
+Помимо базового трекинга, RunTracker отображает маршруты пробежек на карте — аналогично Strava, что делает процесс более визуальным и увлекательным. В приложении также реализован встроенный список задач, все данные которого надёжно хранятся в Realm. Для пользователей, стремящихся к расширенному функционалу, доступны премиум-возможности.
 
 <img width="1154" alt="Screenshot 2025-05-02 at 22 57 46" src="https://github.com/user-attachments/assets/c7acf597-8805-4f03-b280-fcefd4f3372c" />
 
-**Tech Used:**
-
+**Технологии:**
 -	🍏 HealthKit
 -	💿 Realm
 -	🎨 SwiftUI (MVVM)
--	💰 AppHud for IAP
+- 💰 AppHud (подписки)
 
 
 
@@ -544,7 +520,7 @@ In addition to workout tracking, RunTracker displays the paths users have run th
 
 
 # IncomeExpense
-`📲 Will be available on the App Store soon`
+`📲 Скоро будет доступно в App Store`
 
 I developed IncomeExpense, an iOS/iPadOS app designed to help users track and manage their income and expenses efficiently. The app enables users to record all financial transactions, analyze financial flows, and plan budgets to achieve financial stability.
 
@@ -554,7 +530,7 @@ With Realm for secure data storage, IncomeExpense ensures a smooth and reliable 
 
 
 
-**Tech Used:**
+**Технологии:**
 -	📱 WebView
 -	🎨 SwiftUI (MVVM)
 -	💿 Realm
@@ -568,7 +544,7 @@ With Realm for secure data storage, IncomeExpense ensures a smooth and reliable 
 
 
 # GroupFit Organizer
-`📲 Will be available on the App Store soon`
+`📲 Скоро будет доступно в App Store`
 
 I developed GroupFit Organizer, an iOS app designed to help users organize and track their workouts with ease. The app enables users to log their workouts, set personalized routines, and manage fitness goals by tracking workout times and dates. Users can also add friends to boost motivation and participate in group fitness sessions.
 
@@ -577,7 +553,7 @@ The app was built using WebView for content display and relied on SwiftUI with t
 <img width="655" alt="Screenshot 2025-05-02 at 22 58 55" src="https://github.com/user-attachments/assets/d0c309e1-11ba-435d-a29e-2b31d70cc1f3" />
 
 
-**Tech Used:**
+**Технологии:**
 -	📱 WebView
 -	🎨 SwiftUI (MVVM)
 -	💿 Realm
@@ -602,7 +578,7 @@ The app utilizes the Mapbox API to display available transport on a map, and it 
 ![Uploading Screenshot 2025-05-02 at 22.59.24.png…]()
 
 
-**Tech Used:**
+**Технологии:**
 - 🗺️ Mapbox API
 -	🌐 REST API
 -	💿 Central Database (team-based)
