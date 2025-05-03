@@ -522,9 +522,9 @@ Acadly — это система взаимодействия между пре�
 # IncomeExpense
 `📲 Скоро будет доступно в App Store`
 
-I developed IncomeExpense, an iOS/iPadOS app designed to help users track and manage their income and expenses efficiently. The app enables users to record all financial transactions, analyze financial flows, and plan budgets to achieve financial stability.
+Я разработал IncomeExpense — приложение для iOS и iPadOS, предназначенное для удобного учёта доходов и расходов. Приложение позволяет пользователям фиксировать все финансовые операции, анализировать денежные потоки и планировать бюджет для достижения финансовой стабильности.
 
-With Realm for secure data storage, IncomeExpense ensures a smooth and reliable user experience.
+Благодаря использованию Realm для надёжного хранения данных, IncomeExpense обеспечивает стабильную и плавную работу.
 
 <img width="595" alt="Screenshot 2025-05-02 at 22 58 19" src="https://github.com/user-attachments/assets/95ad4902-547d-45fc-9ee6-9b4c828dbcaf" />
 
@@ -546,9 +546,9 @@ With Realm for secure data storage, IncomeExpense ensures a smooth and reliable 
 # GroupFit Organizer
 `📲 Скоро будет доступно в App Store`
 
-I developed GroupFit Organizer, an iOS app designed to help users organize and track their workouts with ease. The app enables users to log their workouts, set personalized routines, and manage fitness goals by tracking workout times and dates. Users can also add friends to boost motivation and participate in group fitness sessions.
+Я разработал GroupFit Organizer — iOS-приложение, созданное для удобной организации и отслеживания тренировок. Пользователи могут записывать свои тренировки, настраивать персональные планы и контролировать прогресс, отслеживая время и даты занятий. Также можно добавлять друзей для повышения мотивации и участия в совместных тренировках.
 
-The app was built using WebView for content display and relied on SwiftUI with the MVVM architecture. All workout data was stored securely using Realm.
+Приложение построено с использованием WebView для отображения контента и разработано на SwiftUI с архитектурой MVVM. Все данные о тренировках надёжно хранятся с помощью Realm.
 
 <img width="655" alt="Screenshot 2025-05-02 at 22 58 55" src="https://github.com/user-attachments/assets/d0c309e1-11ba-435d-a29e-2b31d70cc1f3" />
 
@@ -571,9 +571,9 @@ Demonstration of the app:
 
 [![YouTube](https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white)](https://youtu.be/qEcylOdfPPk)
 
-As part of my thesis work at university, I led a team in developing Urban Transport Sharing (UTS), an app that enables users to rent various types of transport, such as bikes and cars, in urban environments. I served as both the team lead and the sole iOS developer, overseeing the project’s technical direction and ensuring smooth app functionality.
+В рамках своей дипломной работы в университете я возглавил команду по разработке приложения Urban Transport Sharing (UTS), предназначенного для аренды различных видов городского транспорта — от велосипедов до автомобилей. Я выступал как тимлид проекта и единственный iOS-разработчик, отвечая за техническое руководство и стабильную работу приложения.
 
-The app utilizes the Mapbox API to display available transport on a map, and it connects to a central database (developed by a teammate) through a REST API, retrieving user information such as balance, name, and available transport options. Additionally, the app features surge pricing to adjust rental costs dynamically based on demand, enhancing user experience and operational efficiency.
+Приложение использует Mapbox API для отображения доступного транспорта на карте и подключается к центральной базе данных (разработанной участником команды) через REST API, получая информацию о пользователе, включая баланс, имя и доступные транспортные средства. Также реализована функция динамического ценообразования в зависимости от спроса, что повышает удобство пользователей и эффективность сервиса.
 
 ![379472882-4722ef6e-16b4-471e-8e8c-117edd86b49f](https://github.com/user-attachments/assets/9dbe5ac3-2e32-48cf-a742-a15f07652f8e)
 
